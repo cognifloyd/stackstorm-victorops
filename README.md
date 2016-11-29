@@ -12,7 +12,7 @@ to `/opt/stackstorm/configs/victorops.yaml` and edit as required.
 
 It must contain:
 
-* `api_key`` - API token for Victorops integration - see below
+* `api_key` - API token for Victorops integration - see below
 * `routing_key` - An API token generated in the admin interface
 
 You can also use dynamic values from the datastore. See the
