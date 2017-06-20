@@ -1,5 +1,5 @@
 name: recover_incident
-runner_type: run-python
+runner_type: python-script
 description: Recover a triggered event on victorops
 enabled: true
 entry_point: recover_incident.py

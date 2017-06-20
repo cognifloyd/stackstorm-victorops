@@ -18,6 +18,10 @@ It must contain:
 You can also use dynamic values from the datastore. See the
 [docs](https://docs.stackstorm.com/reference/pack_configs.html) for more info.
 
+**Note** : When modifying the configuration in `/opt/stackstorm/configs/` please
+           remember to tell StackStorm to load these new values by running
+           `st2ctl reload --register-configs`
+
 ## How to get API key
 
 Once you sign in to your Victorops account go to the settings tab and click in Integrations button. A table will come at the right side, click on REST endpoint, It will spit out a Post URL, you just need to copy the part after `generic` becuase the first part is same for all. Copy and paste that part of API key in the config.yaml file.
