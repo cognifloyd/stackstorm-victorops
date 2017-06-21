@@ -1,5 +1,5 @@
 name: open_incident
-runner_type: run-python
+runner_type: python-script
 description: Triggers the event on VictorOps with the given parameters
 enabled: true
 entry_point: open_incident.py
